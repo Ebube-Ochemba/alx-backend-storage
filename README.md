@@ -13,7 +13,7 @@ In this repository, you will find a collection of projects and assignments that 
 
 ## Environment
 - Languages: Python, SQL
-- OS: Ubuntu 22.04 LTS
+- OS: Ubuntu 22.04 LTS, MySQL 8.0.39
 - Compiler: python3
 - Style guidelines: [PEP 8 (version 1.7)](https://peps.python.org/pep-0008/)
 ## Credits
