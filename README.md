@@ -12,7 +12,7 @@ In this repository, you will find a collection of projects and assignments that 
 - [](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/)
 
 ## Environment
-- Languages: Python
+- Languages: Python, SQL
 - OS: Ubuntu 22.04 LTS
 - Compiler: python3
 - Style guidelines: [PEP 8 (version 1.7)](https://peps.python.org/pep-0008/)
