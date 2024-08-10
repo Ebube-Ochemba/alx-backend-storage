@@ -10,9 +10,20 @@ I learnt about how to create tables with constraints, how to optimize queries by
 
 > Each file contains the solution to a task in the project.
 
-- [ ] [0-uniq_users.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/0-uniq_users.sql):
-- [ ] [1-country_users.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/1-country_users.sql):
-- [ ] [2-fans.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/2-fans.sql):
+- [x] [0-uniq_users.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/0-uniq_users.sql): An SQL script that creates a table `users` following these requirements:
+    - With these attributes:
+      - `id`, integer, never null, auto increment and primary key
+      - `email`, string (255 characters), never null and unique
+      - `name`, string (255 characters)
+- [x] [1-country_users.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/1-country_users.sql): An SQL script that creates a table `users` following these requirements:
+    - With these attributes:
+      - `id`, integer, never null, auto increment and primary key
+      - `email`, string (255 characters), never null and unique
+      - `name`, string (255 characters)
+      - `country`, enumeration of countries: `US`, `CO` and `TN`, never null (= default will be the first element of the enumeration, here `US`)
+- [ ] [2-fans.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/2-fans.sql): An SQL script that ranks country origins of bands, ordered by the number of (non-unique) fans.
+    - Import this table dump: [metal_bands.sql](./metal_bands.sql)
+    - Column names must be: origin and nb_fans
 - [ ] [3-glam_rock.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/3-glam_rock.sql):
 - [ ] [4-store.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/4-store.sql):
 - [ ] [5-valid_email.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/5-valid_email.sql):
