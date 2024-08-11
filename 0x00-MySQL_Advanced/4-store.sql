@@ -2,12 +2,17 @@
 -- of an item after adding a new order.
 
 -- Drop the trigger if it already exists
-DROP TRIGGER IF EXISTS decrease_item_quantity;
+DELIMITER //
 
--- Create the trigger
+DROP TRIGGER IF EXISTS decrease_item_quantity//
+
 CREATE TRIGGER decrease_item_quantity
-    AFTER INSERT ON orders
-    FOR EACH ROW
-        UPDATE items
-        SET quantity = quantity - NEW.number
-        WHERE name = NEW.item_name;
+AFTER INSERT ON orders
+FOR EACH ROW
+BEGIN
+    UPDATE items
+    SET quantity = quantity - NEW.number
+    WHERE name = NEW.item_name;
+END//
+
+DELIMITER ;
