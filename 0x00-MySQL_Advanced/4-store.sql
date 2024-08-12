@@ -1,7 +1,7 @@
 -- SQL script that creates a trigger that decreases the quantity
 -- of an item after adding a new order.
 
--- Drop the trigger if it already exists
+-- Change the delimiter to avoid errors
 DELIMITER //
 
 DROP TRIGGER IF EXISTS decrease_item_quantity//
