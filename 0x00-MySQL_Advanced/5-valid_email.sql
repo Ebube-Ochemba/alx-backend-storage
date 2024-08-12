@@ -5,7 +5,7 @@ DELIMITER //
 
 DROP TRIGGER IF EXISTS validate_email;
 
-CREATE TRIGGER resets_valid_email
+CREATE TRIGGER reset_valid_email
 BEFORE UPDATE ON users
 FOR EACH ROW
 BEGIN
