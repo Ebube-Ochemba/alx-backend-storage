@@ -29,7 +29,9 @@ I learnt about how to create tables with constraints, how to optimize queries by
 - [x] [5-valid_email.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/5-valid_email.sql): An SQL script that creates a trigger that resets the attribute `valid_email` only when the `email` has been changed.
 - [x] [6-bonus.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/6-bonus.sql): An SQL script that creates a stored procedure `AddBonus` that adds a new correction for a student.
 - [x] [7-average_score.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/7-average_score.sql): An SQL script that creates a stored procedure `ComputeAverageScoreForUser` that computes and store the average score for a student.
-- [ ] [8-index_my_names.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/8-index_my_names.sql): An SQL script that creates an index `idx_name_first` on the table `names` and the first letter of `name`.
+- [x] [8-index_my_names.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/8-index_my_names.sql): An SQL script that creates an index `idx_name_first` on the table `names` and the first letter of `name`.
+  - Import this table dump: [names.sql](./names.sql)
+  - Only the first letter of `name` AND `score` must be indexed
 - [ ] [9-index_name_score.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/9-index_name_score.sql): An SQL script that creates an index `idx_name_first_score` on the table names and the first letter of `name` and the `score`.
   - Import this table dump: [names.sql](./names.sql)
   - Only the first letter of `name` AND `score` must be indexed
