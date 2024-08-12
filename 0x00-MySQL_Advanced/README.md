@@ -35,8 +35,8 @@ I learnt about how to create tables with constraints, how to optimize queries by
 - [x] [9-index_name_score.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/9-index_name_score.sql): An SQL script that creates an index `idx_name_first_score` on the table names and the first letter of `name` and the `score`.
   - Import this table dump: [names.sql](./names.sql)
   - Only the first letter of `name` AND `score` must be indexed
-- [ ] [10-div.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/10-div.sql): An SQL script that creates a function `SafeDiv` that divides (and returns) the first by the second number or returns 0 if the second number is equal to 0.
-- [ ] [11-need_meeting.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/11-need_meeting.sql): An SQL script that creates a view `need_meeting` that lists all students that have a score under 80 (strict) and no `last_meeting` or more than 1 month.
+- [x] [10-div.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/10-div.sql): An SQL script that creates a function `SafeDiv` that divides (and returns) the first by the second number or returns 0 if the second number is equal to 0.
+- [x] [11-need_meeting.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/11-need_meeting.sql): An SQL script that creates a view `need_meeting` that lists all students that have a score under 80 (strict) and no `last_meeting` or more than 1 month.
 - [ ] [](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/):
 - [ ] [](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/):
 
