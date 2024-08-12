@@ -26,8 +26,8 @@ I learnt about how to create tables with constraints, how to optimize queries by
     - Column names must be: origin and nb_fans
 - [x] [3-glam_rock.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/3-glam_rock.sql): An SQL script that lists all bands with `Glam rock` as their main style, ranked by their longevity.
 - [x] [4-store.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/4-store.sql): An SQL script that creates a trigger that decreases the quantity of an item after adding a new order.
-- [ ] [5-valid_email.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/5-valid_email.sql):
-- [ ] [6-bonus.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/6-bonus.sql):
+- [x] [5-valid_email.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/5-valid_email.sql): An SQL script that creates a trigger that resets the attribute `valid_email` only when the `email` has been changed.
+- [x] [6-bonus.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/6-bonus.sql): An SQL script that creates a stored procedure `AddBonus` that adds a new correction for a student.
 - [ ] [7-average_score.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/7-average_score.sql):
 - [ ] [8-index_my_names.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/8-index_my_names.sql):
 - [ ] [9-index_name_score.sql](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced/9-index_name_score.sql):
