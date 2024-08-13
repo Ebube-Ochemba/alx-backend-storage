@@ -11,8 +11,8 @@ I learnt about what NoSQL means, the difference between SQL and NoSQL, what is A
 > Each file contains the solution to a task in the project.
 
 - [x] [0-list_databases](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/0-list_databases): A script that lists all databases in MongoDB.
-- [ ] [1-use_or_create_database](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/1-use_or_create_database):
-- [ ] [2-insert](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/2-insert):
+- [x] [1-use_or_create_database](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/1-use_or_create_database): A script that creates or uses the database `my_db`.
+- [ ] [2-insert](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/2-insert): A script that inserts a document in the collection `school`.
 - [ ] [3-all](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/3-all):
 - [ ] [4-match](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/4-match):
 - [ ] [5-count](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/5-count):
