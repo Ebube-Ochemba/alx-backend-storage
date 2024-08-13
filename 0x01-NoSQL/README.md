@@ -12,12 +12,12 @@ I learnt about what NoSQL means, the difference between SQL and NoSQL, what is A
 
 - [x] [0-list_databases](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/0-list_databases): A script that lists all databases in MongoDB.
 - [x] [1-use_or_create_database](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/1-use_or_create_database): A script that creates or uses the database `my_db`.
-- [ ] [2-insert](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/2-insert): A script that inserts a document in the collection `school`.
-- [ ] [3-all](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/3-all): A script that lists all document in the collection `school`.
-- [ ] [4-match](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/4-match): A script that lists all documents with `name="Holberton school"` in the collection `school`.
-- [ ] [5-count](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/5-count): A script that displays the number of documents in the collection `school`.
-- [ ] [6-update](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/6-update): A script that adds a new attribute to a document in the collection `school`.
-- [ ] [7-delete](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/7-delete): A script that deletes all documents with `name="Holberton school"` in the collection `school`.
+- [x] [2-insert](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/2-insert): A script that inserts a document in the collection `school`.
+- [x] [3-all](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/3-all): A script that lists all document in the collection `school`.
+- [x] [4-match](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/4-match): A script that lists all documents with `name="Holberton school"` in the collection `school`.
+- [x] [5-count](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/5-count): A script that displays the number of documents in the collection `school`.
+- [x] [6-update](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/6-update): A script that adds a new attribute to a document in the collection `school`.
+- [x] [7-delete](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/7-delete): A script that deletes all documents with `name="Holberton school"` in the collection `school`.
 - [ ] [8-all.py](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/8-all.py): A Python function that lists all documents in a collection.
 - [ ] [9-insert_school.py](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/9-insert_school.py): A Python function that inserts a new document in a collection based on `kwargs`.
 - [ ] [10-update_topics.py](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/10-update_topics.py): A Python function that changes all topics of a school document based on the name.
