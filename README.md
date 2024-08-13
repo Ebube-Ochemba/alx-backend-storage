@@ -9,6 +9,7 @@ In this repository, you will find a collection of projects and assignments that 
 ## List of Projects
 
 - [0x00. MySQL advanced](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x00-MySQL_Advanced)
+- [0x01. NoSQL](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL)
 - [](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/)
 
 ## Environment
