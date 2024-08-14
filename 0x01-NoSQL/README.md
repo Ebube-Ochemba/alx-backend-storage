@@ -23,8 +23,8 @@ I learnt about what NoSQL means, the difference between SQL and NoSQL, what is A
 - [x] [10-update_topics.py](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/10-update_topics.py): A Python function that changes all topics of a school document based on the name.
 - [x] [11-schools_by_topic.py](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/11-schools_by_topic.py): APython function that returns the list of school having a specific topic.
 - [ ] [12-log_stats.py](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/12-log_stats.py): A Python script that provides some stats about Nginx logs stored in MongoDB.
-- [ ] [100-find](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/100-find): A script that lists all documents with `name` starting by Holberton in the collection `school`
-- [ ] [101-students.py](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/):A Python function that returns all students sorted by average score.
+- [x] [100-find](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/100-find): A script that lists all documents with `name` starting by Holberton in the collection `school`
+- [x] [101-students.py](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/):A Python function that returns all students sorted by average score.
 - [ ] [102-log-stats.py](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x01-NoSQL/102-log-stats.py): Improve `12-log_stats.py` by adding the top 10 of the most present IPs in the collection `nginx` of the database `logs`.
 
 > [test_files](): A folder of test files. Provided by Alx.
