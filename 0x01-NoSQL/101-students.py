@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-'''Task 14's module.
+'''Prints all students in a collection sorted by average score.
 '''
 
 
 def top_students(mongo_collection):
-    '''Prints all students in a collection sorted by average score.
+    '''
+    return: all students sorted by average score
     '''
     students = mongo_collection.aggregate(
         [
