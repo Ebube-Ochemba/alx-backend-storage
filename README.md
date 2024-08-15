@@ -15,7 +15,7 @@ In this repository, you will find a collection of projects and assignments that 
 ## Environment
 
 - Languages: Python, SQL,
-- OS: `Ubuntu` 22.04 LTS, `MySQL` 8.0.39, `mongosh` 2.2.15, `redis-cli` 7.4.0
+- OS: `Ubuntu` 22.04 LTS, `MySQL` 8.0.39, `mongosh` 2.2.15, `redis` 7.4.0
 - Compiler: python3
 - Style guidelines: [PEP 8 (version 1.7)](https://peps.python.org/pep-0008/)
 
