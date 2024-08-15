@@ -1,4 +1,4 @@
-#/usr/bin/env python3
+#!/usr/bin/env python3
 """A wrapper for Redis operations"""
 import redis
 from uuid import uuid4
