@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""A wrapper for Redis operations"""
+"""A Redic client Module"""
 import redis
 from uuid import uuid4
 from typing import Union
 
 
 class Cache:
+    """A wrapper for Redis operations"""
 
     def __init__(self) -> None:
         """Initialize redis client"""
