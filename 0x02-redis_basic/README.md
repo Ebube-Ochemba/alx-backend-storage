@@ -15,7 +15,7 @@ I learnt about how to use redis for basic operations as well ashow to use redis 
 - [x] [exercise.py #1](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x02-redis_basic/exercise.py): Create a `get` method that take a `key` string argument and an optional `Callable` argument named `fn`. This callable will be used to convert the data back to the desired format.
 - [x] [exercise.py #2](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x02-redis_basic/exercise.py): Implement a system to count how many times methods of the `Cache` class are called.
 - [4] [exercise.py #3](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x02-redis_basic/exercise.py): Define a `call_history` decorator to store the history of inputs and outputs for a particular function.
-- [ ] [exercise.py #4](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x02-redis_basic/exercise.py): Implement a `replay` function to display the history of calls of a particular function.
-- [ ] [](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x02-redis_basic/):
+- [x] [exercise.py #4](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x02-redis_basic/exercise.py): Implement a `replay` function to display the history of calls of a particular function.
+- [ ] [web.py](https://github.com/Ebube-Ochemba/alx-backend-storage/blob/main/0x02-redis_basic/web.py): Implement a `get_page` function (prototype: `def get_page(url: str) -> str:`). The core of the function is very simple. It uses the `requests` module to obtain the HTML content of a particular URL and returns it.
 
-> [test_files](): A folder of test files. Provided by Alx.
+> [main.py](./main.py): A main file for test cases. Provided by Alx.
