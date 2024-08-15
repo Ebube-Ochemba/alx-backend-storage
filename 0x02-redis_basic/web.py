@@ -20,7 +20,7 @@ def url_access_count(func: Callable) -> Callable:
     return wrapper
 
 
-def cache_result(func: Callable, expiration: int = 10) -> Callable:
+def cache_result(func: Callable) -> Callable:
     """Caches the result of a function"""
     @wraps(func)
     def wrapper(url: str) -> str:
@@ -31,11 +31,11 @@ def cache_result(func: Callable, expiration: int = 10) -> Callable:
             return cached_result.decode('utf-8')
 
         # If not cached, call the function
-        result = func(url)
+        response = func(url)
 
         # Cache the result
-        client.setex(url, expiration, result)
-        return result
+        client.setex(url, 10, response)
+        return response
     return wrapper
 
 
