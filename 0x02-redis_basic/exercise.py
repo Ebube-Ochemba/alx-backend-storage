@@ -21,17 +21,18 @@ class Cache:
 
     def get(self, key: str, fn: Optional[Callable] = None) -> Any:
         """Retrieve data from Redis and optionally convert it"""
-        client = self._redis
-        value = client.get(key)
-        if not value:
-            return
+        value = self._redis.get(key)
+        if value is None:
+            return None
+        if fn is None:
+            return value
+
         if fn is int:
             return self.get_int(value)
         if fn is str:
             return self.get_str(value)
         if callable(fn):
             return fn(value)
-        return value
 
     def get_str(self, data: bytes) -> str:
         """ Converts bytes to string"""
