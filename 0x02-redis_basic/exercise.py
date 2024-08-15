@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""A Redic client Module"""
+"""A Redis client Module"""
 import redis
 from uuid import uuid4
 from typing import Union
