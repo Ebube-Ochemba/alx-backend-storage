@@ -2,8 +2,20 @@
 """A Redis client Module"""
 import redis
 from uuid import uuid4
+from functools import wraps
 from typing import Any, Callable, Optional, Union
 
+
+def count_calls(method: Callable) -> Callable:
+    """Count the number of times a function is called"""
+    @wraps(method)
+    def wrapper(self, *args, **kwargs) -> str:
+        """Wraps called method and increments its call count
+        in redis before execution"""
+        key = method.__qualname__
+        self._redis.incr(key)
+        return method(self, *args, **kwargs)
+    return wrapper
 
 class Cache:
     """A wrapper for Redis operations"""
@@ -13,6 +25,7 @@ class Cache:
         self._redis = redis.Redis()
         self._redis.flushdb()
 
+    @count_calls
     def store(self, data: Union[str, bytes, int, float]) -> str:
         """Store data in redis"""
         key = str(uuid4())
