@@ -4,7 +4,7 @@
 
 ## Description
 
-In this repository, you will find a collection of projects and assignments that cover various Advanced topics in `MySQL` as well as `NoSQL` concepts. In these projects, I covered concepts like `SQL`: `Triggers`, `Views`, `Procedures`, etc., `NoSQL`: `MongoDB`, `Redis`, etc.. Each project dives into a specific topic, I tackled challenges that encouraged me to get creative with solutions.
+In this repository, you will find a collection of projects and assignments that cover various Advanced topics in **SQL** as well as **NoSQL** concepts. In these projects, I covered concepts like **SQL**: `Triggers`, `Views`, `Procedures`, etc., **NoSQL**: `MongoDB`, `Redis`, etc.. Each project dives into a specific topic, I tackled challenges that encouraged me to get creative with solutions.
 
 ## List of Projects
 
