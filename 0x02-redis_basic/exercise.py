@@ -97,7 +97,7 @@ class Cache:
 
     def get_str(self, data: bytes) -> str:
         """ Converts bytes to string"""
-        return data.decode('utf-8')
+        return str(data)
 
     def get_int(self, data: bytes) -> int:
         """ Converts bytes to integers"""
