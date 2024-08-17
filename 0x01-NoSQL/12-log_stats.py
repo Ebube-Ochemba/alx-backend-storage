@@ -3,31 +3,35 @@
 from pymongo import MongoClient
 
 
-def main():
+def getLogInfo(collection):
     """Prints stats about Nginx request logs.
     """
-    # Connect to MongoDB
-    client = MongoClient('mongodb://localhost:27017/')
-    db = client.logs
-    nginx_col = db.nginx
+    coll = collection
 
     # Count the total number of documents
-    total_logs = nginx_col.count_documents({})
+    total_logs = coll.count_documents({})
     print(f"{total_logs} logs")
 
     # Methods and their counts
     methods = ["GET", "POST", "PUT", "PATCH", "DELETE"]
     print("Methods:")
     for method in methods:
-        count = nginx_col.count_documents({"method": method})
+        count = coll.count_documents({"method": method})
         print(f"\tmethod {method}: {count}")
 
     # Count documents with method GET and path /status
     status_checks = (
-        nginx_col.count_documents({"method": "GET", "path": "/status"})
+        coll.count_documents({"method": "GET", "path": "/status"})
     )
     print(f"{status_checks} status check")
 
 
+def plugIn():
+    '''Connects to MongoDB dbs and processes a collection
+    '''
+    client = MongoClient('mongodb://127.0.0.1:27017')
+    getLogInfo(client.logs.nginx)
+
+
 if __name__ == "__main__":
-    main()
+    plugIn()
