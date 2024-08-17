@@ -37,8 +37,6 @@ def getLogInfo(collection):
         print(f"\t{ip['_id']}: {ip['count']}")
 
 
-
-
 if __name__ == "__main__":
     client = MongoClient('mongodb://127.0.0.1:27017')
     getLogInfo(client.logs.nginx)
