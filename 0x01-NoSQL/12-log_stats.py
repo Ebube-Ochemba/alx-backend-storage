@@ -23,8 +23,11 @@ def main():
         print(f"\tmethod {method}: {count}")
 
     # Count documents with method GET and path /status
-    status_checks = nginx_col.count_documents({"method": "GET", "path": "/status"})
+    status_checks = (
+        nginx_col.count_documents({"method": "GET", "path": "/status"})
+    )
     print(f"{status_checks} status check")
+
 
 if __name__ == "__main__":
     main()
