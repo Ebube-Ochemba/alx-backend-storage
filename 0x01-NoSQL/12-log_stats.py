@@ -26,12 +26,7 @@ def getLogInfo(collection):
     print(f"{status_checks} status check")
 
 
-def plugIn():
-    '''Connects to MongoDB dbs and processes a collection
-    '''
-    client = MongoClient('mongodb://127.0.0.1:27017')
-    getLogInfo(client.logs.nginx)
-
 
 if __name__ == "__main__":
-    plugIn()
+    client = MongoClient('mongodb://127.0.0.1:27017')
+    getLogInfo(client.logs.nginx)
